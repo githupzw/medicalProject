@@ -6,8 +6,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * <b>智慧医疗信息平台 - 注册中心启动类</b>
- * @author 张伟
+ * @author ZhangWei
  * @version 1.0.0
+ * @since 1.0.0
  */
 @EnableEurekaServer
 @SpringBootApplication
