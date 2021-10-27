@@ -2,7 +2,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url:
+    url: jdbc:mysql://localhost:3306/medical_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: root
     ### 设定所使用的数据库连接池为 Druid
@@ -16,5 +16,5 @@ spring:
       max-evictable-idle-time-millis: 60000
 ### 配置 MyBatis 项目信息
 mybatis:
-  mapper-locations: classpath:/mapper/*/*.Mapper.xml
+  mapper-locations: classpath:/mapper/*/*/*.Mapper.xml
   type-aliases-package: com.zwsyd.medical

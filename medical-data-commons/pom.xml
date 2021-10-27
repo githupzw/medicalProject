@@ -19,13 +19,13 @@
 
 
   <dependencies>
-    <!-- 配置 medical parent 依赖 [BEGIN]-->
+    <!-- 配置 medical commons 依赖 [BEGIN]-->
     <dependency>
       <groupId>com.zwsyd.medical</groupId>
       <artifactId>medical-commons</artifactId>
       <version>${parent.version}</version>
     </dependency>
-    <!-- 配置 medical parent 依赖 [END]-->
+    <!-- 配置 medical commons 依赖 [END]-->
 
     <!-- 配置 MySQL Connector 依赖 [BEGIN]-->
     <dependency>
